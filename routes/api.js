@@ -5,6 +5,13 @@ const moment = require('moment')
 const line = require('../lib/line')
 const geo = require('../lib/geocoding')
 const wth = require('../lib/wether')
+function sleep(time) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve()
+    }, time)
+  })
+}
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
@@ -34,53 +41,26 @@ router.post('/webhook', (req, res, next) => {
         console.log(moment.unix(list.dt).format('YYYY-MM-DD HH:mm:ss'))
         return moment.unix(list.dt).format('HH') === '09'
       })
-      wetherProperty.map(async list => {
+      wetherProperty = wetherProperty.map(list => {
         const date = moment.unix(list.dt).format('MM月DD日の天気')
-        const temp_min = list.main.temp_min - 273.15
-        const temp_max = list.main.temp_max - 273.15
+        const temp_min = Math.floor(list.main.temp_min - 273.15)
+        const temp_max = Math.floor(list.main.temp_max - 273.15)
         const humidity = list.main.humidity
         const pressure = list.main.pressure
-        let weatherDesc
-        switch (list.weather[0].icon) {
-          case '01d':
-            weatherDesc = '快晴'
-            break
-          case '02d':
-            weatherDesc = '晴れ'
-            break
-          case '03d':
-          case '04d':
-            weatherDesc = 'くもり'
-            break
-          case '09d':
-            weatherDesc = '小雨'
-            break
-          case '10d':
-            weatherDesc = '雨'
-            break
-          case '11d':
-            weatherDesc = '雷雨'
-            break
-          case '13d':
-            weatherDesc = '雪'
-            break
-          case '50d':
-            weatherDesc = '霧'
-            break
-        }
-        const message = `${date}\nてんき: ${weatherDesc}\nさいていきおん: ${temp_min}℃\nさいこうきおん: ${temp_max}℃\nしつど: ${humidity}%\n気圧: ${pressure}hPa`
+        const weatherDesc = wth.wetherDescription(list.weather[0].icon)
 
-        await line
-          .sendMessage(replyToken, message)
-          .then(result => console.log('success'))
-          .catch(err => console.error(err))
+        return (message = `${date}\nてんき: ${weatherDesc}\nさいていきおん: ${temp_min} ℃\nさいこうきおん: ${temp_max} ℃\nしつど: ${humidity} %\n気圧: ${pressure} hPa`)
       })
-
-      /*await line
-        .sendMessage(replyToken, wetherProperty)
-        .then(result => console.log(result.data))
-        .catch(err => console.error(err))
-      */
+      for (let i = 0; i < wetherProperty.length; i++) {
+        console.log(`Number: ${i}`)
+        console.log(`Token: ${replyToken}`)
+        console.log(`Message: ${wetherProperty[i]}`)
+        await line
+          .sendMessage(replyToken, wetherProperty[i])
+          .then(result => console.log(result.data))
+          .catch(err => console.error(err.response.data))
+        await sleep(1000)
+      }
     } catch (err) {
       console.error(err)
     }
