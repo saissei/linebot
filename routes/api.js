@@ -53,7 +53,6 @@ router.post('/webhook', (req, res, next) => {
       })
       for (let i = 0; i < wetherProperty.length; i++) {
         console.log(`Number: ${i}`)
-        console.log(`Token: ${replyToken}`)
         console.log(`Message: ${wetherProperty[i]}`)
         await line
           .sendMessage(replyToken, wetherProperty[i])
