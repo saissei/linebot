@@ -1,0 +1,559 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "styles": {
+        "footer": {
+          "separator": true
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          [
+            {
+              "type": "text",
+              "text": "2019年 06月 29日のお天気",
+              "weight": "bold",
+              "color": "#1DB446",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "くもり",
+              "weight": "bold",
+              "size": "xxl",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最低気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最高気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "湿度",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "53 %",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "気圧",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "1004.24 hPa",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "2019年 06月 29日のお天気",
+              "weight": "bold",
+              "color": "#1DB446",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "くもり",
+              "weight": "bold",
+              "size": "xxl",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最低気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最高気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "湿度",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "53 %",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "気圧",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "1004.24 hPa",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "2019年 06月 29日のお天気",
+              "weight": "bold",
+              "color": "#1DB446",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "くもり",
+              "weight": "bold",
+              "size": "xxl",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最低気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最高気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "湿度",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "53 %",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "気圧",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "1004.24 hPa",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "2019年 06月 29日のお天気",
+              "weight": "bold",
+              "color": "#1DB446",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "くもり",
+              "weight": "bold",
+              "size": "xxl",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最低気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最高気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "湿度",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "53 %",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "気圧",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "1004.24 hPa",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "type": "text",
+              "text": "2019年 06月 29日のお天気",
+              "weight": "bold",
+              "color": "#1DB446",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "くもり",
+              "weight": "bold",
+              "size": "xxl",
+              "margin": "md"
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最低気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "最高気温",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "26 ℃",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "湿度",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "53 %",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "気圧",
+                      "size": "sm",
+                      "color": "#555555",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "1004.24 hPa",
+                      "size": "sm",
+                      "color": "#111111",
+                      "align": "end"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}
